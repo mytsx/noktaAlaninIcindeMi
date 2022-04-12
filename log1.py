@@ -109,7 +109,7 @@ def centerOfPoints(coord):
 #perm = permutations(coord,2)
 #for p in perm:
 #  print(p)
-def uo(nokta1, nokta2):
+def uo(nokta1, nokta2): # iki nokta arasındaki uzuklık ve orta nokta koordinatını verir
     x1, y1 = nokta1
     x2, y2 = nokta2
     xd = abs(x2-x1)
